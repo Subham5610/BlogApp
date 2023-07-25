@@ -1,22 +1,33 @@
-import React, { PureComponent } from 'react'
+// import React, { PureComponent } from 'react'
 
-class FooterComponent extends PureComponent {
-    constructor(props) {
-        super(props)
+// class FooterComponent extends PureComponent {
+//     constructor(props) {
+//         super(props)
 
-        this.state = {
+//         this.state = {
             
-        }
-    }
+//         }
+//     }
 
-    render() {
-        return (
-            <div>
+//     render() {
+//         return (
+//             <div>
                 
-            </div>
+//             </div>
             
-        )
-    }
+//         )
+//     }
+// }
+
+// export default FooterComponent
+import React from 'react';
+
+const FooterComponent = () => {
+  return (
+    <div>
+      {/* Footer content */}
+    </div>
+  );
 }
 
-export default FooterComponent
+export default FooterComponent;
